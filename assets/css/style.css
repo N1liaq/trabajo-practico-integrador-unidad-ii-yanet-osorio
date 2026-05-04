@@ -7,3 +7,22 @@ body {
   background-size: cover;
   background-position: center;
 }
+
+.fondo {
+  background-color: #fafafad3 !important;
+  margin: auto;
+  margin-top: 30px;
+  width: 1700px;
+}
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.fondo_texto_titulo_principal {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
