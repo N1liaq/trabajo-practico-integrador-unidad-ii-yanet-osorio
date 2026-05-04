@@ -27,6 +27,13 @@ body {
   margin: auto;
 }
 
+.fondo_texto_subtitulo_principal {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 280px;
+  margin: auto;
+}
+
 footer {
   background-color: #f8f9fa !important;
 }
