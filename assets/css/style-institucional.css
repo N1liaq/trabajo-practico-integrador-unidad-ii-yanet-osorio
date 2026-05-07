@@ -37,3 +37,29 @@ body {
 footer {
   background-color: #f8f9fa !important;
 }
+
+.fondo_texto-Mision-vision {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 650px;
+  margin: auto;
+}
+
+.fondo_texto-mision {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 530px;
+  text-align: center;
+}
+
+.fondo_texto-Mision-autoridades {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 330px;
+  margin: auto;
+  text-align: center;
+}
+
+.card-body {
+  height: 160px;
+}
