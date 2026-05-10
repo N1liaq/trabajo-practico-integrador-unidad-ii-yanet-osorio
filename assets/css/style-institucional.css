@@ -63,3 +63,16 @@ footer {
 .card-body {
   height: 160px;
 }
+
+.fondo_texto-estructura-organizativa {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 630px;
+  margin: auto;
+  text-align: center;
+}
+
+.institucional-estructura {
+  width: 350px;
+  height: 350px;
+}
