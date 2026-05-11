@@ -14,3 +14,20 @@ body {
   margin-top: 30px;
   width: 1700px;
 }
+
+.img-quimica-industrial {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("../img-carreras/quimica-industrial.png");
+  height: 900px;
+  max-width: 100%;
+  filter: brightness(0.4);
+}
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #f8f9fa !important;
+}
