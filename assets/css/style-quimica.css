@@ -18,8 +18,8 @@ body {
 .img-quimica-industrial {
   background-color: rgba(0, 0, 0, 0.8);
   background-image: url("../img-carreras/quimica-industrial.png");
-  height: 900px;
-  max-width: 100%;
+  width: 600px;
+  margin-left: 199px;
   filter: brightness(0.4);
 }
 
@@ -33,5 +33,5 @@ footer {
 }
 
 li {
-  list-style: none;
+  text-decoration: none;
 }
