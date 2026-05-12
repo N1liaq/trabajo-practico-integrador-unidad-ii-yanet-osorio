@@ -15,6 +15,14 @@ body {
   width: 1700px;
 }
 
+.img-mecatronica {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-image: url("../img-carreras/quimica-industrial.png");
+  width: 600px;
+  margin-left: 199px;
+  filter: brightness(0.4);
+}
+
 footer {
   background-color: #f8f9fa !important;
 }
