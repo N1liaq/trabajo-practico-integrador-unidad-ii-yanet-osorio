@@ -26,3 +26,12 @@ body {
 footer {
   background-color: #f8f9fa !important;
 }
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+li {
+  text-decoration: none;
+}
