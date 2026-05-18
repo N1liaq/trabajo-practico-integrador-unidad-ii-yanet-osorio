@@ -1,0 +1,75 @@
+body {
+  text-align: justify;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("../img-institucional/fondo-pagina.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fondo {
+  background-color: #fafafad3 !important;
+  margin: auto;
+  margin-top: 30px;
+  width: 1700px;
+}
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.fondo_texto_titulo_principal {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+.fondo_texto_subtitulo_principal {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 280px;
+  margin: auto;
+}
+
+footer {
+  background-color: #f8f9fa !important;
+}
+
+/* Los fondo-texto-(cierta propiedad del texto) son para que sean visibles y no se pierdan en el fondo */
+.fondo_texto-Mision-vision {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 650px;
+  margin: auto;
+}
+
+.fondo_texto-mision {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 530px;
+  text-align: center;
+}
+
+.fondo_texto-Mision-autoridades {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 330px;
+  margin: auto;
+  text-align: center;
+}
+
+.fondo_texto-estructura-organizativa {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 630px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Aquí se ajusto el tamaño del card-body para que quedará parejo las líneas de texto*/
+.card-body {
+  height: 160px;
+}
