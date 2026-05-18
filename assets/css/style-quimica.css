@@ -32,6 +32,7 @@ footer {
   background-color: #f8f9fa !important;
 }
 
+/* para que no aparezcan los puntos de la listas desordenadas en los <li> */
 li {
   text-decoration: none;
 }
