@@ -28,14 +28,46 @@ footer {
   background-color: #ffffff !important;
   border-radius: 10px;
   width: 250px;
-  margin-left: 10px;
+  margin-left: 100px;
 }
 
 .fondito-form {
   background-color: #c9d6bd;
   border-radius: 20px;
+  margin-left: 100px;
+  width: 700px;
 }
 
 li {
   text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+.fondo_redes {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  margin-right: 70px;
+  width: 300px;
+}
+
+.fondo_texto-redes {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  margin-right: 70px;
+  width: 300px;
+}
+
+.fondo_contacto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 360px;
+  margin-top: 25px;
+}
+
+.fondo_texto-contacto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 360px;
 }
