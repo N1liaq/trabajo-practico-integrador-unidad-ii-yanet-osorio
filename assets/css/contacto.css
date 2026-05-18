@@ -18,3 +18,24 @@ body {
 footer {
   background-color: #f8f9fa !important;
 }
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.fondo_consultas {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 10px;
+}
+
+.fondito-form {
+  background-color: #c9d6bd;
+  border-radius: 20px;
+}
+
+li {
+  text-decoration: none;
+}
