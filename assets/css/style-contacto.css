@@ -1,0 +1,72 @@
+body {
+  text-align: justify;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("../img-contacto/fondo-pagina.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.fondo {
+  background-color: #fafafad3 !important;
+  margin: auto;
+  margin-top: 30px;
+  width: 1700px;
+}
+
+footer {
+  background-color: #f8f9fa !important;
+}
+
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.fondo_consultas {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 250px;
+  margin-left: 100px;
+}
+
+.fondito-form {
+  background-color: #c9d6bd;
+  border-radius: 20px;
+  margin-left: 100px;
+  width: 700px;
+}
+
+li {
+  text-decoration: none;
+}
+
+.fondo_redes {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  margin-right: 90px;
+  width: 300px;
+}
+
+.fondo_texto-redes {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  margin-right: 90px;
+  width: 300px;
+}
+
+.fondo_contacto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 360px;
+  margin-top: 25px;
+  margin-right: 20px;
+}
+
+.fondo_texto-contacto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 360px;
+  margin-right: 20px;
+}
