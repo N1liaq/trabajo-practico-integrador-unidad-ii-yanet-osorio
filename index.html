@@ -10,102 +10,109 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
   </head>
 
+  <!-- el <div> "fondo" es para poner un fondo transparente por encima del fondo principal para que quede bien de forma estética-->
   <div class="fondo">
     <body>
       <br />
+      <!-- Este <container contiene el <header> y <nav>, la barra de navegación a los distintos apartados de la página junto con el logo del instituto -->
       <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              ><img
-                src="assets/img/logo_politecnico.png"
-                alt="Logo"
-                width="150"
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul
-                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                style="--bs-scroll-height: 100px"
+        <header>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"
+                ><img
+                  src="assets/img/logo_politecnico.png"
+                  alt="Logo"
+                  width="150"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="index.html"
-                    >Inicio</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="institucional.html"
-                    >Institucional</a
-                  >
-                </li>
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Carreras
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="quimica-industrial.html">
-                        Técnicatura Superior en Química Industrial
-                      </a>
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="mecatronica.html"
-                        >Tecnicatura Superior en Mecatrónica</a
-                      >
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="telecomunicaciones.html"
-                        >Tecnicatura Superior en Telecomunicaciones</a
-                      >
-                    </li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li>
-                      <a class="dropdown-item" href="desarrollo-software.html"
-                        >Tecnicatura Superior en Desarrollo de Software
-                        Multiplataforma</a
-                      >
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="contacto.html">Contacto</a>
-                </li>
-              </ul>
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul
+                  class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                  style="--bs-scroll-height: 100px"
+                >
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Inicio</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="institucional.html"
+                      >Institucional</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Carreras
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="quimica-industrial.html">
+                          Técnicatura Superior en Química Industrial
+                        </a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="mecatronica.html"
+                          >Tecnicatura Superior en Mecatrónica</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="telecomunicaciones.html"
+                          >Tecnicatura Superior en Telecomunicaciones</a
+                        >
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="desarrollo-software.html"
+                          >Tecnicatura Superior en Desarrollo de Software
+                          Multiplataforma</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-        </nav>
+          </nav>
+        </header>
       </div>
-      <header class="text-center my-5">
-        <div class="fondo_texto_titulo_principal p-4 mb-5">
-          <h1>Instituto Politécnico de Formosa</h1>
-          <h2>¡Bienvenido!</h2>
-        </div>
-      </header>
+      <!-- en <main> se dividió cada contenido, información breve sobre el instituto-->
       <main>
+        <!-- En este <section> se encuentra el título principal de la página -->
+        <section class="text-center my-5">
+          <div class="fondo_texto_titulo_principal p-4 mb-5">
+            <h1>Instituto Politécnico de Formosa</h1>
+            <h2>¡Bienvenido!</h2>
+          </div>
+        </section>
+        <!-- En este <section> se encuentra la descripción y sobre que es junto con un carrusel con imágenes del instituto -->
         <section>
           <div class="container">
             <div class="row">
@@ -190,6 +197,7 @@
             </div>
           </div>
         </section>
+        <!-- En este <section> se encuentran <cards> con breve información sobre las carreras y atajos para ver directamente las carreras -->
         <section>
           <div class="row row-cols-1 row-cols-md-2 g-4 mt-5 p-5">
             <div class="col">
@@ -298,6 +306,7 @@
             </div>
           </div>
         </section>
+        <!-- Aquí también se utilizó <cards> pero para mostrar los servicios que ofrece el politécnico -->
         <section>
           <div class="container">
             <div class="card-group mt-5 mb-5">
@@ -361,6 +370,7 @@
         </section>
       </main>
       <div class="container">
+        <!-- En el <footer> se agregó atajos a las carreras y a las demás paginas, también se encuentran las redes sociales -->
         <footer class="py-5">
           <div class="row text-center">
             <div class="col-6 col-md-4 mb-2 mx-auto">

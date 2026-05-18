@@ -1,0 +1,36 @@
+/*en el body se agregó una fuente obligatoria para la pagina, además de agregar en él, el fondo */
+body {
+  text-align: justify;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("../img/fondo-pagina.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* fondo, sería las propiedades del fondo transparente que esta por encima del fondo que contiene el body */
+.fondo {
+  background-color: #fafafad3 !important;
+  margin: auto;
+  margin-top: 30px;
+  width: 1700px;
+}
+
+/* Tanto fondo_texto y fondo_texto_titulo_principal son para ponerles un fondo blanco a los textos para que no se confundan con el fondo*/
+.fondo_texto {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+}
+
+.fondo_texto_titulo_principal {
+  background-color: #ffffff !important;
+  border-radius: 10px;
+  width: 50%;
+  margin: auto;
+}
+
+/* Se agregó esta propiedad al footer para que sea visible */
+footer {
+  background-color: #f8f9fa !important;
+}
